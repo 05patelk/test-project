@@ -5,22 +5,24 @@
   "main": "index.js",
   "scripts": {
     "cy:open": "cypress open",
-    "cy:test": "cypress run"
+    "cy:test": "cypress run",
+    "cy:run": "cypress run"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/05patelk?tab=overview&from=2022-09-01&to=2022-09-30"
+    "url": "https://github.com/05patelk/test-project"
   },
-  "author": "",
+  "author": "Kishan Patel",
   "license": "ISC",
   "dependencies": {
-    "cypress": "^10.9.0"
-  },
-  "devDependencies": {
-    "cypress-cucumber-preprocessor": "^4.3.1"
+    "@badeball/cypress-cucumber-preprocessor": "^13.0.2"
   },
   "cypress-cucumber-preprocessor": {
     "noneGlobalStepDefinitions": true
+  },
+  "devDependencies": {
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.1.5",
+    "cypress": "^10.9.0",
+    "esbuild": "^0.15.10"
   }
-
 }
