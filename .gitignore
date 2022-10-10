@@ -7,4 +7,4 @@ coverage
 .idea/
 .DS_Store
 build/
-videos/*
+cypress/videos/*

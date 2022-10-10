@@ -32,11 +32,11 @@ class fridayFixturesPage {
     }
 
     shouldIncludeFraction() {
-        this.elements.bet().should('include.text',"14/5");
+       this.elements.bet().should('include.text',"/");
     }
 
     shouldIncludeDecimal() {
-        this.elements.bet().should('include.text',"3.80");
+        this.elements.bet().should('include.text',".");
     }
 
     changeToDecimal() {
